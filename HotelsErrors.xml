@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns="http://example.com/schema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://example.com/schema Hotels.xsd">
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Temps</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>Hilton</Name>
+    <Name>Extra Name</Name>
+    <Phone>602-555-1234</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Marriott</Name>
+    <Phone>480-555-5678</Phone>
+    <Address>
+      <Number>456</Number>
+      <Street>Broadway Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.3">
+    <Name>Hyatt</Name>
+    <Phone>480-555-7890</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>789</Number>
+      <Street>Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Sheraton</Name>
+    <Address NearestAirport="Sky Harbor">
+      <Number>101</Number>
+      <Street>Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.9">
+    <Name>Holiday Inn</Name>
+    <Phone>480-555-2345</Phone>
+    <Address NearestAirport="Phoenix-Mesa Gateway">
+      <Number>202</Number>
+      <Street>University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.8">
+    <Name>The Ritz-Carlton</Name>
+    <Phone>602-555-6789</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>303</Number>
+      <Street>Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85018</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.9">
+    <Name>Four Seasons</Name>
+    <Phone>480-555-1122</Phone>
+    <Phone>800-555-3344</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>606</Number>
+      <Street>Paradise Valley Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.8">
+    <Name>La Quinta Inn</Name>
+    <Phone>602-555-2233</Phone>
+    <Address NearestAirport="Phoenix-Mesa Gateway">
+    <Number>707</Number>
+    <Street>Papago St</Street>
+    <City>Phoenix</City>
+    <State>AZ</State>
+    <Zip>85018</Zip>
+  </Hotel>
+  <Hotel Rating="3.5">
+    <Name>Motel 6 Glendale</Name>
+    <Phone>480-555-3344</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>808</Number>
+      <Street>Cactus Rd</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85301</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.7">
+    <Name>Biltmore Hotel</Name>
+    <Phone>602-555-4455</Phone>
+    <Phone>800-555-6677</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>909</Number>
+      <Street>Biltmore Estates Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
