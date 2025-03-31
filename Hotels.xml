@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="http://example.com/schema"
+<Hotels xmlns="https://usbandit44.github.io/Assignment4/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://usbandit44.github.io/Assignment4/ https://usbandit44.github.io/Assignment4/Hotels.xsd">
   <Hotel Rating="4.2">
