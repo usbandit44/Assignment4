@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://usbandit44.github.io/Assignment4/"
-    elementFormDefault="qualified"
-    attributeFormDefault="unqualified">
-    <element name="Hotels">
-        <complexType>
-            <sequence>
-                <element name="Hotel" maxOccurs="unbounded">
-                    <complexType>
-                        <sequence>
-                            <element name="Name" type="string" minOccurs="1" maxOccurs="1" />
-                            <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded"></element>
-                            <element name="Address">
-                                <complexType>
-                                    <sequence>
-                                        <element name="Number" type="integer" minOccurs="1"
+    xmlns="https://usbandit44.github.io/Assignment4/"
+    elementFormDefault="qualified">
+    <xs:element name="Hotels">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Hotel" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="Phone" type="xs:string" minOccurs="1"
+                                maxOccurs="unbounded"></xs:element>
+                            <xs:element name="Address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Number" type="xs:integer" minOccurs="1"
                                             maxOccurs="1" />
-                                        <element name="Street" type="string" minOccurs="1"
+                                        <xs:element name="Street" type="xs:string" minOccurs="1"
                                             maxOccurs="1" />
-                                        <element name="City" type="string" minOccurs="1"
+                                        <xs:element name="City" type="xs:string" minOccurs="1"
                                             maxOccurs="1" />
-                                        <element name="State" type="string" minOccurs="1"
+                                        <xs:element name="State" type="xs:string" minOccurs="1"
                                             maxOccurs="1" />
-                                        <element name="Zip" type="integer" minOccurs="1"
+                                        <xs:element name="Zip" type="xs:integer" minOccurs="1"
                                             maxOccurs="1" />
-                                    </sequence>
-                                    <attribute name="NearestAirport" type="string" use="required" />
-                                </complexType>
-                            </element>
-                        </sequence>
-                        <attribute name="Rating" type="string" use="optional" />
-                    </complexType>
-                </element>
-            </sequence>
-        </complexType>
-
-    </element>
-</schema>
+                                    </xs:sequence>
+                                    <xs:attribute name="NearestAirport" type="xs:string"
+                                        use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Rating" type="xs:string" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
